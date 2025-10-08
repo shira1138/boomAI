@@ -63,7 +63,25 @@ function App() {
         display: 'flex',
         flexDirection: 'column',
       }}>
-        <h3 style={{ color: '#00bfae', marginBottom: '1rem' }}>Settings & History</h3>
+        <button
+          onClick={() => setSidebarOpen(false)}
+          style={{
+            position: 'absolute',
+            top: '1rem',
+            right: '1rem',
+            background: 'transparent',
+            color: '#fff',
+            border: 'none',
+            fontSize: '1.5rem',
+            fontWeight: 'bold',
+            cursor: 'pointer',
+            zIndex: 101,
+          }}
+          aria-label="Close sidebar"
+        >
+          ×
+        </button>
+        <h3 style={{ color: '#00bfae', marginBottom: '1rem', marginTop: '2.5rem' }}>Settings & History</h3>
         <div style={{ marginBottom: '2rem' }}>
           <strong>Chat History</strong>
           <div style={{ marginTop: '0.5rem', maxHeight: '40vh', overflowY: 'auto', fontSize: '0.95rem' }}>
@@ -87,21 +105,6 @@ function App() {
             (Settings UI placeholder)
           </div>
         </div>
-        <button
-          onClick={() => setSidebarOpen(false)}
-          style={{
-            marginTop: 'auto',
-            padding: '0.5rem 1rem',
-            background: '#00bfae',
-            color: '#181818',
-            border: 'none',
-            borderRadius: '8px',
-            fontWeight: 'bold',
-            cursor: 'pointer',
-          }}
-        >
-          Close
-        </button>
       </div>
       {/* Sidebar Toggle Button */}
       <button
@@ -134,34 +137,47 @@ function App() {
         padding: '1rem',
         marginLeft: '0px',
         marginBottom: '80px',
+        position: 'relative',
       }}>
-        <h2 style={{ textAlign: 'center', marginBottom: '1rem', color: '#00bfae' }}>Boom AI Chat</h2>
-        {messages.length === 0 && (
-          <div style={{ textAlign: 'center', color: '#aaa', marginTop: '2rem' }}>
-            Start chatting with Boom AI!
-          </div>
-        )}
-        {messages.map((msg, idx) => (
-          <div key={idx} style={{
-            display: 'flex',
-            justifyContent: msg.role === 'user' ? 'flex-end' : 'flex-start',
-            marginBottom: '1rem',
-          }}>
-            <div style={{
-              maxWidth: '80%',
-              background: msg.role === 'user' ? '#00bfae' : '#222',
-              color: msg.role === 'user' ? '#181818' : '#fff',
-              padding: '0.75rem 1rem',
-              borderRadius: '18px',
-              fontSize: '1rem',
-              wordBreak: 'break-word',
-              boxShadow: msg.role === 'user' ? '0 2px 8px #00bfae33' : '0 2px 8px #22222233',
-            }}>
-              {msg.content}
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100%',
+          background: '#181818',
+          zIndex: 99,
+          boxShadow: '0 2px 8px #22222233',
+        }}>
+          <h2 style={{ textAlign: 'center', margin: 0, padding: '1rem 0', color: '#00bfae', fontSize: '1.5rem' }}>Boom AI Chat</h2>
+        </div>
+        <div style={{ marginTop: '70px' }}>
+          {messages.length === 0 && (
+            <div style={{ textAlign: 'center', color: '#aaa', marginTop: '2rem' }}>
+              Start chatting with Boom AI!
             </div>
-          </div>
-        ))}
-        <div ref={messagesEndRef} />
+          )}
+          {messages.map((msg, idx) => (
+            <div key={idx} style={{
+              display: 'flex',
+              justifyContent: msg.role === 'user' ? 'flex-end' : 'flex-start',
+              marginBottom: '1rem',
+            }}>
+              <div style={{
+                maxWidth: '80%',
+                background: msg.role === 'user' ? '#00bfae' : '#222',
+                color: msg.role === 'user' ? '#181818' : '#fff',
+                padding: '0.75rem 1rem',
+                borderRadius: '18px',
+                fontSize: '1rem',
+                wordBreak: 'break-word',
+                boxShadow: msg.role === 'user' ? '0 2px 8px #00bfae33' : '0 2px 8px #22222233',
+              }}>
+                {msg.content}
+              </div>
+            </div>
+          ))}
+          <div ref={messagesEndRef} />
+        </div>
       </div>
       <form onSubmit={handleAsk} style={{
         position: 'fixed',
