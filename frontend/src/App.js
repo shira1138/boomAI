@@ -207,6 +207,7 @@ function App() {
             marginRight: '1rem',
             background: '#333',
             color: '#fff',
+            resize:'vertical',
           }}
           required
         />
