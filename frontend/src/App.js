@@ -216,7 +216,7 @@ function App() {
           style={{
             padding: '0.75rem 1.5rem',
             fontSize: '1rem',
-            borderRadius: '12px',
+            borderRadius: '10px',
             border: 'none',
             background: '#00bfae',
             color: '#181818',
