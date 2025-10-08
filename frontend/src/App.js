@@ -32,7 +32,7 @@ function App() {
       const aiMessage = { role: "ai", content: data.answer || data.error };
       setMessages((prev) => [...prev, aiMessage]);
     } catch (error) {
-      setMessages((prev) => [...prev, { role: "ai", content: "Error connecting to Boom AI backend." }]);
+      setMessages((prev) => [...prev, { role: "ai", content: "Error. Try again." }]);
     }
     setLoading(false);
   };
@@ -102,7 +102,7 @@ function App() {
         <div>
           <strong>Settings</strong>
           <div style={{ marginTop: '0.5rem', color: '#aaa', fontSize: '0.95rem' }}>
-            (Settings UI placeholder)
+            (Settings)
           </div>
         </div>
       </div>
@@ -196,7 +196,7 @@ function App() {
           type="text"
           value={input}
           onChange={e => setInput(e.target.value)}
-          placeholder="Type your message..."
+          placeholder="Message Boom AI..."
           style={{
             flex: 1,
             padding: '0.75rem',
@@ -225,7 +225,7 @@ function App() {
             transition: 'background 0.2s',
           }}
         >
-          {loading ? 'Think...' : 'Send'}
+          {loading ? '⬤' : '🏹'}
         </button>
       </form>
     </div>
