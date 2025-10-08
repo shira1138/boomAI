@@ -190,7 +190,7 @@ function App() {
         alignItems: 'center',
         boxShadow: '0 -2px 8px #22222233',
       }}>
-        <input
+        <textarea
           id="boomai-question"
           name="boomai-question"
           type="text"
@@ -207,7 +207,8 @@ function App() {
             marginRight: '1rem',
             background: '#333',
             color: '#fff',
-            resize:'vertical',
+            overflow:'hidden',
+            resize:'none',
           }}
           required
         />
