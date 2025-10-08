@@ -32,7 +32,7 @@ function App() {
       const aiMessage = { role: "ai", content: data.answer || data.error };
       setMessages((prev) => [...prev, aiMessage]);
     } catch (error) {
-      setMessages((prev) => [...prev, { role: "ai", content: "Error. Try again." }]);
+      setMessages((prev) => [...prev, { role: "ai", content: "Easy ndiyamba kuyankha pompano. Akandimaliza kundikoza 😊." }]);
     }
     setLoading(false);
   };
@@ -102,7 +102,7 @@ function App() {
         <div>
           <strong>Settings</strong>
           <div style={{ marginTop: '0.5rem', color: '#aaa', fontSize: '0.95rem' }}>
-            (Settings)
+            (Comming soon)
           </div>
         </div>
       </div>
@@ -207,7 +207,7 @@ function App() {
             marginRight: '1rem',
             background: '#333',
             color: '#fff',
-            overflow:'hidden',
+            overflow:'auto',
             resize:'none',
           }}
           required
