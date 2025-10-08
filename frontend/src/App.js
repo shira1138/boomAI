@@ -32,7 +32,7 @@ function App() {
       const aiMessage = { role: "ai", content: data.answer || data.error };
       setMessages((prev) => [...prev, aiMessage]);
     } catch (error) {
-      setMessages((prev) => [...prev, { role: "ai", content: "Easy ndiyamba kuyankha pompano. Akandimaliza kundikoza 😊." }]);
+      setMessages((prev) => [...prev, { role: "ai", content: "Easy ndiyamba kuyankha pompano. Akandimaliza kundikoza Gift😊." }]);
     }
     setLoading(false);
   };
