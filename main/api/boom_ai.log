@@ -109,3 +109,15 @@
 2025-10-09 06:29:19,656 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:29:19] "POST /ask HTTP/1.1" 200 -
 2025-10-09 06:30:14,535 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:30:14] "OPTIONS /ask HTTP/1.1" 200 -
 2025-10-09 06:30:18,279 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:30:18] "POST /ask HTTP/1.1" 200 -
+2025-10-09 07:07:14,882 INFO __main__ All AI models loaded successfully
+2025-10-09 07:07:14,890 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 07:07:14,890 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 07:07:40,956 INFO __main__ All AI models loaded successfully
+2025-10-09 07:07:40,963 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 07:07:40,963 INFO werkzeug [33mPress CTRL+C to quit[0m
