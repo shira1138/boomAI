@@ -1,17 +1,16 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-# Root route for health check or confirmation
 @app.route('/')
 def home():
     return jsonify({'message': 'Backend is running'})
 
-# Example API route
-@app.route('/api/hello', methods=['GET'])
+@app.route('/api/hello')
 def hello():
     return jsonify({'message': 'Hello from Flask!'})
 
-# Vercel-compatible entry point
+# Vercel expects this exact name
+# This wraps the Flask app in a WSGI-compatible handler
 def handler(environ, start_response):
     return app.wsgi_app(environ, start_response)
