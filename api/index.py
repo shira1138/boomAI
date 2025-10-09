@@ -1,10 +1,11 @@
-from flask import Flask, request, jsonify
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
-def home():
-    return jsonify({"message": "BoomAI backend is live!"})
+@app.route('/api/hello')
+def hello():
+    return jsonify({'message': 'Hello from Flask!'})
 
-# Export the app for Vercel
-handler = app
+# Vercel-compatible entry point
+def app_handler(request):
+    return app(request)
