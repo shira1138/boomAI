@@ -9,7 +9,7 @@ function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const messagesEndRef = useRef(null);
 
-  const apiUrl = "https://verbose-telegram-v6jqqrpj77qxcpq5j-5000.app.github.dev/ask";
+  const apiUrl = "https://verbose-telegram-v6jqqrpj77qxcpq5j-5001.app.github.dev/ask";
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });

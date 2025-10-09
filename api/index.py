@@ -10,7 +10,5 @@ def home():
 def hello():
     return jsonify({'message': 'Hello from Flask!'})
 
-# Vercel expects this exact name
-# This wraps the Flask app in a WSGI-compatible handler
 def handler(environ, start_response):
     return app.wsgi_app(environ, start_response)
