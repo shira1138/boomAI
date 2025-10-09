@@ -1,0 +1,111 @@
+2025-10-09 05:12:09,855 INFO __main__ All AI models loaded successfully
+2025-10-09 05:12:09,862 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 05:12:09,862 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 05:12:34,447 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 05:12:34] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-09 05:12:37,298 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 05:12:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-09 05:20:48,117 INFO __main__ All AI models loaded successfully
+2025-10-09 05:20:48,122 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 05:20:48,123 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 05:20:57,129 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 05:20:57] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-09 05:23:44,645 INFO __main__ All AI models loaded successfully
+2025-10-09 05:23:44,650 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 05:23:44,650 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 05:23:55,396 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 05:23:55] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-09 05:25:50,651 INFO __main__ All AI models loaded successfully
+2025-10-09 05:25:50,655 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 05:25:50,656 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 05:26:01,417 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 05:26:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-09 05:27:42,433 INFO __main__ All AI models loaded successfully
+2025-10-09 05:27:42,438 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 05:27:42,438 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 05:27:53,488 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 05:27:53] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-09 05:31:35,571 INFO __main__ All AI models loaded successfully
+2025-10-09 05:31:35,576 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 05:31:35,576 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 05:31:45,653 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 05:31:45] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-09 05:32:57,052 INFO __main__ All AI models loaded successfully
+2025-10-09 05:32:57,057 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 05:32:57,057 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 05:33:09,623 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 05:33:09] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-09 05:37:35,948 INFO __main__ All AI models loaded successfully
+2025-10-09 05:37:35,952 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 05:37:35,952 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 05:37:46,604 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 05:37:46] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-09 05:50:43,686 INFO __main__ All AI models loaded successfully
+2025-10-09 05:50:43,691 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 05:50:43,691 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 05:50:57,476 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 05:50:57] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-09 06:02:09,616 INFO __main__ All AI models loaded successfully
+2025-10-09 06:02:09,620 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 06:02:09,620 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 06:06:46,227 INFO __main__ All AI models loaded successfully
+2025-10-09 06:06:46,233 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 06:06:46,233 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 06:06:57,123 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:06:57] "[33mGET / HTTP/1.1[0m" 404 -
+2025-10-09 06:08:59,760 INFO __main__ All AI models loaded successfully
+2025-10-09 06:08:59,763 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 06:08:59,764 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 06:10:41,815 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:10:41] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:10:45,289 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:10:45] "POST /ask HTTP/1.1" 200 -
+2025-10-09 06:11:00,660 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:11:00] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:11:02,777 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:11:02] "POST /ask HTTP/1.1" 200 -
+2025-10-09 06:11:56,603 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:11:56] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:11:59,993 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:11:59] "POST /ask HTTP/1.1" 200 -
+2025-10-09 06:12:14,388 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:12:14] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:12:16,565 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:12:16] "POST /ask HTTP/1.1" 200 -
+2025-10-09 06:13:58,104 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:13:58] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:14:00,562 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:14:00] "POST /ask HTTP/1.1" 200 -
+2025-10-09 06:27:39,919 INFO __main__ All AI models loaded successfully
+2025-10-09 06:27:39,926 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.3.2:5000
+2025-10-09 06:27:39,926 INFO werkzeug [33mPress CTRL+C to quit[0m
+2025-10-09 06:28:00,528 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:28:00] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:28:04,133 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:28:04] "POST /ask HTTP/1.1" 200 -
+2025-10-09 06:28:16,958 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:28:16] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:28:20,366 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:28:20] "POST /ask HTTP/1.1" 200 -
+2025-10-09 06:28:37,339 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:28:37] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:28:39,907 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:28:39] "POST /ask HTTP/1.1" 200 -
+2025-10-09 06:28:57,108 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:28:57] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:28:58,127 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:28:58] "POST /ask HTTP/1.1" 200 -
+2025-10-09 06:29:18,905 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:29:18] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:29:19,656 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:29:19] "POST /ask HTTP/1.1" 200 -
+2025-10-09 06:30:14,535 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:30:14] "OPTIONS /ask HTTP/1.1" 200 -
+2025-10-09 06:30:18,279 INFO werkzeug 127.0.0.1 - - [09/Oct/2025 06:30:18] "POST /ask HTTP/1.1" 200 -
