@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/boomAI/static/css/main.e6c13ad2.css",
+    "main.js": "/boomAI/static/js/main.126c5f4c.js",
+    "static/js/488.79b19bc3.chunk.js": "/boomAI/static/js/488.79b19bc3.chunk.js",
+    "service-worker.js": "/boomAI/service-worker.js",
+    "index.html": "/boomAI/index.html",
+    "main.e6c13ad2.css.map": "/boomAI/static/css/main.e6c13ad2.css.map",
+    "main.126c5f4c.js.map": "/boomAI/static/js/main.126c5f4c.js.map",
+    "488.79b19bc3.chunk.js.map": "/boomAI/static/js/488.79b19bc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.126c5f4c.js"
+  ]
+}
